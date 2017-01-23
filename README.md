@@ -6,12 +6,14 @@ Recurrent net built with Keras.
 It uses information about all encyphered characters occurrences and the fact that cyphertext is written in English.
 Input vector is fixed size. Each value x position p represents how far away character x is in a list of characters reverse-sorted by occurences in message. Get it? Here is an example.
 
+```
 String "hello" .
 l-2, e-1, o-1, h-1 
 l is on first place, then goes e, o, h .
 Input for l would be "3,1,0,0,2" and desirable output "l".
 For e - "2,0,25,25,1" (25 because we shift it, like it's a cyclic alphabet)
 For o - "1,25,24,24,0"
+```
 
 There is clearly no difference between e, o and h in the example. In reality when two characters have same number of occurrences we have to decide randomly on which place to put them.
 I hope you got the idea.
