@@ -25,5 +25,13 @@ The model has 3 LSTM layers with 512 nodes. I'm sure there is better architectur
 There is pretrained model on English wiki articles in this repo included.
 
 ## Examples ##
-`of the pediiine but was then exposed by jumie pallish when she disioveled his tl
-of the pediiine but was then exposed by jumie pallish when she disioveled his tl`
+```
+of the pediiine but was then exposed by jumie pallish when she disioveled his tl
+of the pediiine but was then exposed by jumie pallish when she disioveled his tl
+
+another supply of the medicine but was then exposed by julie parrish when she di
+ahothes supply of the pedibihe but was theh exposed by julie passish wheh she di
+
+protocol are often used to distribute icalendar data about an event and to publi
+pnotolol ane often uued to dcutncbute clalendan data about an event and to publc
+```
