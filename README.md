@@ -1,5 +1,5 @@
 # neural-net-substitution-decypher
-Recurrent net built with Keras.
+Recurrent net that is able to decrypt substitution enciphered strings. Built using keras.
 
 ## Basic idea ##
 
