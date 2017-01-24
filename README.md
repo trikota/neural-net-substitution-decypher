@@ -17,7 +17,7 @@ For o - "1,25,24,24,0"
 
 There is clearly no difference between e, o and h in the example. In reality when two characters have same number of occurrences we have to decide randomly on which place to put them.
 I hope you got the idea.
-This vectorization method showed far better result than others I've tried.
+This vectorization method showed far better results than others I've tried.
 
 BTW, because output is vector of probabilities for single char, some fancy algorithm can be implemented to find the best most-probable overall solution.
 
