@@ -4,7 +4,7 @@ Recurrent net built with Keras.
 ## Basic idea ##
 
 It uses information about all encyphered characters occurrences and the fact that cyphertext is written in English.
-Input vector is fixed size. Each value x position p represents how far away character x is in a list of characters reverse-sorted by occurences in message. Get it? Here is an example.
+Input vector is fixed size. Each value x position p represents how far away character x is in a list of characters reverse-sorted by occurences in message. Got it? Here is an example.
 
 ```
 String "hello" .
@@ -28,9 +28,6 @@ There is pretrained model on English wiki articles in this repo included.
 
 ## Examples ##
 ```
-of the pediiine but was then exposed by jumie pallish when she disioveled his tl
-of the pediiine but was then exposed by jumie pallish when she disioveled his tl
-
 another supply of the medicine but was then exposed by julie parrish when she di
 ahothes supply of the pedibihe but was theh exposed by julie passish wheh she di
 
